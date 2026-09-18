@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photographer Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Custom Pure CSS -->
+    <link rel="stylesheet" href="style.css?v=3">
+</head>
+<body class="dark-theme">
+    <header class="navbar-wrapper">
+        <nav class="navbar glass-panel">
+            
+            <!-- Logo / Name -->
+            <div class="nav-logo">
+                <a href="index.html" class="logo-text">It's Monish</a>
+            </div>
+
+            <!-- Hamburger Toggle Button (Mobile/Tablet) -->
+            <button class="hamburger-btn" id="menuToggle" aria-label="Toggle navigation menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+
+            <!-- Nav Menu (Dropdown on Mobile/Tablet) -->
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+                <!-- CTA Button (Moved inside dropdown for Mobile/Tablet) -->
+                <a href="contact.html" class="btn-primary glass-btn nav-cta">
+                    Book Now
+                </a>
+            </div>
+
+        </nav>
+    </header>
+
+  <main class="blog-list-wrapper">
+  
+  <!-- Header Section -->
+  <header class="blog-list-header">
+    <h1 class="blog-list-title">STORIES & THOUGHTS</h1>
+    <p class="blog-list-subtitle">Documenting moments, processes, and life behind the lens.</p>
+  </header>
+
+  <!-- Featured Post -->
+  <section class="blog-list-featured">
+    <a href="blog-kookal.html" class="blog-list-featured-card">
+      <div class="blog-list-featured-image" style="background-image: url('assets/Kookal/kookal7.webp');"></div>
+      <div class="blog-list-featured-content">
+        <span class="blog-list-tag">Featured</span>
+        <h2 class="blog-list-featured-title">Mountains that made and marooned Kookal</h2>
+        <p class="blog-list-featured-excerpt">A survival tutorial disguised as a weekend getaway, and a lesson from the people for whom survival is simply everyday life.</p>
+        <span class="blog-list-meta">March 12, 2026 • 5 min read</span>
+      </div>
+    </a>
+  </section>
+
+
+
+  <!-- Article Grid -->
+  <section class="blog-list-grid">
+
+    <article class="blog-list-card">
+      <div class="blog-list-card-media">
+        <img src="assets/karuppan/karupan2.webp" alt="Karuppan & Rayappan" loading="lazy">
+      </div>
+      <div class="blog-list-card-body">
+        <span class="blog-list-tag">Travel</span>
+        <h3 class="blog-list-card-title">Karuppan, Rayappan & Their Forest</h3>
+        <p class="blog-list-card-excerpt">On a quiet morning in the Jawadhu Hills, a forest guide and his loyal companion took us along trails they knew by heart.</p>
+        <div class="blog-list-card-footer">
+          <span class="blog-list-meta">Jan 18, 2026</span>
+          <a href="blog-karupan.html" class="blog-list-read-btn">Read Article &rarr;</a>
+        </div>
+      </div>
+    </article>
+    
+    <article class="blog-list-card">
+      <div class="blog-list-card-media">
+        <img src="assets/Palamalai/dog3.webp" alt="Blessings and Burdens" loading="lazy">
+      </div>
+      <div class="blog-list-card-body">
+        <span class="blog-list-tag">Documentary</span>
+        <h3 class="blog-list-card-title">Blessings and Burdens</h3>
+        <p class="blog-list-card-excerpt">Palamalai has always been a place to unwind, but one day revealed a completely different perspective.</p>
+        <div class="blog-list-card-footer">
+          <span class="blog-list-meta">Feb 24, 2026</span>
+          <a href="blog-palamalai.html" class="blog-list-read-btn">Read Article &rarr;</a>
+        </div>
+      </div>
+    </article>
+
+
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-container">
+    
+    
+    <div class="footer-banner">
+      <!-- Center Content -->
+      <div class="banner-center">
+        <h2 class="banner-title">Keeping up with me.</h2>
+        <p class="banner-subtitle">Explore creative processes, ideations, and stories from the spaces I build.</p>
+
+        <!-- Email Capsule Form -->
+        <form class="banner-newsletter-form" onsubmit="event.preventDefault();">
+          <input type="email" placeholder="Your email" required class="email-input" />
+          <button type="submit" class="submit-btn">SUBMIT</button>
+        </form>
+
+        <!-- Stats Row -->
+        <div class="stats-grid">
+          <div class="stat-item">
+            <span class="stat-number">+460B</span>
+            <span class="stat-label">Registered User</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">+2M</span>
+            <span class="stat-label">Created Projects</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">+45M</span>
+            <span class="stat-label">Total Engagements</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">+100M</span>
+            <span class="stat-label">Proof Assets</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Banner Right Decorative Images Placeholder -->
+      <div class="banner-overlay-right">
+        <!-- REPLACE WITH YOUR BANNER ACCENT IMAGE IF DESIRED -->
+        <!-- <img src="assets/banner-accent.png" alt="Accent Visuals" /> -->
+      </div>
+
+    </div>
+
+    <!-- Main Footer Links Section -->
+    <div class="footer-main">
+      
+      <!-- Left Column: Brand & Bio -->
+      <div class="footer-brand-col">
+        <div class="brand-logo">
+          <span class="logo-icon">&#x25C6;</span>
+          <span class="logo-text">It's Monish</span>
+        </div>
+        <p class="brand-bio">
+          I am excited about the work I do every day, and I am elated to share my craft with you.
+        </p>
+        
+        <!-- Social Icons Row -->
+        <div class="footer-socials">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H7.5v-3H10V9.5C10 7.01 11.49 5.6 13.78 5.6c1.1 0 2.25.2 2.25.2v2.47h-1.27c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.45 3h-2.33v6.8c4.56-.93 8-4.96 8-9.8z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.25V10.9H6.46M7.86 6.75a1.45 1.45 0 1 0 0 2.9 1.45 1.45 0 0 0 0-2.9z"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+        </div>
+      </div>
+
+      <!-- Right Columns: Navigation Lists -->
+      <div class="footer-nav-columns">
+        <div class="nav-column">
+          <span class="column-title">Explore</span>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Connect</a></li>
+          </ul>
+        </div>
+
+        
+      </div>
+
+    </div>
+
+    <!-- Bottom Copyright Bar -->
+    <div class="footer-bottom-bar">
+      <span class="copyright-text">&copy; 2026 Logo Name. All rights reserved.</span>
+      <a href="mailto:info@yourdomain.com" class="contact-email">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        info@yourdomain.com
+      </a>
+    </div>
+
+  </div>
+</footer>
+<script src="script.js" defer></script>
+</body>
+</html>
